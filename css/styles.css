@@ -3,3 +3,11 @@
   width:100vw;
   background-color:#f7f4f4;
 }
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px) {
+    #textsec1{
+      color:red;
+    }
+}
