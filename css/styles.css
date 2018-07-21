@@ -1,3 +1,7 @@
+body{
+  overflow-x:hidden;
+}
+
 #sec1{
   height:100vh;
   width:100vw;
@@ -20,4 +24,17 @@
   width:100vw;
   color:white;
   font-family: 'Merienda', cursive;
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #sec2{
+      background-color:#0f0f0f;
+      height:70vh;
+      width:100vw;
+      color:white;
+      font-family: 'Merienda', cursive;
+    }
 }
