@@ -5,3 +5,19 @@
   background-color:black;
   position:relative;
 }
+
+.navbar{
+  background-color: rgb(0,0,0);
+}
+
+.navbar-toggler-icon .navbar-toggle{
+    color:white;
+}
+
+#sec2{
+  background-color:#0f0f0f;
+  height:50vh;
+  width:100vw;
+  color:white;
+  font-family: 'Merienda', cursive;
+}
