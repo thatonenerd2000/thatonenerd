@@ -39,7 +39,7 @@ body{
 
 #sec3{
   background-color:white;
-  height:100vh;
+  height:92vh;
   color:black;
   font-family: 'Merienda', cursive;
   text-align:center;
@@ -55,7 +55,7 @@ body{
 }
 
 .hovanim{
-  transition: 0.5s all;
+  transition: 0.1s all;
   padding:10px;
 }
 
@@ -67,4 +67,18 @@ body{
   color:black;
   font-family: 'Acme', sans-serif;
   text-align: center;
+  height:inherit;
+  background-color:#f7f7f7;
+}
+
+#holderp{
+  padding:30px;
+}
+
+.card{
+  transition: 0.1s all;
+}
+
+.card:hover{
+  transform: scale(1.05);
 }
