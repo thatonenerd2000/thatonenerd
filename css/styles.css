@@ -82,3 +82,10 @@ body{
 .card:hover{
   transform: scale(1.05);
 }
+
+#sec5{
+  color:black;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  height:50vh;
+}
