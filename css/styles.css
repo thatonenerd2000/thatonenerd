@@ -9,6 +9,7 @@ body{
   text-align: center;
   background-color:black;
   position:relative;
+  color:white;
 }
 
 .navbar{
@@ -21,7 +22,17 @@ body{
 
 #sec2{
   background-color:#0f0f0f;
-  height:50vh;
+  height:45vh;
   color:white;
   font-family: 'Merienda', cursive;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+#downarrow{
+  animation: bounce 2s infinite;
 }

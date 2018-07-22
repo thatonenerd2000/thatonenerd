@@ -6,4 +6,8 @@ $(document).ready(function(){
     speed:100,
     startDelay:1000
   });
+  $(".scrolla").scrolla({
+    mobile:true,
+    once:true
+  });
 })
