@@ -49,6 +49,24 @@ body{
   position: relative;
   top:5vh;
   margin:10px;
+  padding:10px;
   text-align: center;
   font-family: 'Merienda', cursive;
+}
+
+.hovanim{
+  transition: 0.5s all;
+  padding:10px;
+}
+
+.hovanim:hover{
+  transform: scale(1.1);
+}
+
+#sec4{
+  background-color:white;
+  height:100vh;
+  color:black;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
 }
