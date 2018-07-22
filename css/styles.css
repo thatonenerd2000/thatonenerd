@@ -36,3 +36,7 @@ body{
 #downarrow{
   animation: bounce 2s infinite;
 }
+
+.hide{
+  display: none;
+}
