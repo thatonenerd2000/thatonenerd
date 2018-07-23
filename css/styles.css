@@ -107,7 +107,7 @@ body{
 }
 
 #sec6{
-  height:20vh;
+  height:10vh;
   font-family: 'Acme', sans-serif;
   text-align: center;
   color:white;
@@ -121,7 +121,7 @@ body{
 }
 
 .contact{
-  margin-top: 40px;
+  margin-top: 20px;
   padding:10px;
   position:relative;
   opacity:0.8;
