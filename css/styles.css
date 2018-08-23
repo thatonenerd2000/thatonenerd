@@ -22,7 +22,7 @@ body{
 
 #sec2{
   background-color:#0f0f0f;
-  height:45vh;
+  height:inherit;
   color:white;
   font-family: 'Merienda', cursive;
 }
@@ -39,19 +39,21 @@ body{
 
 #sec3{
   background-color:white;
-  height:60vh;
+  height:inherit;
   color:black;
   font-family: 'Merienda', cursive;
   text-align:center;
 }
 
 #apprentice{
+  padding-top:50px;
   position: relative;
   top:5vh;
   margin:10px;
   padding:10px;
   text-align: center;
   font-family: 'Merienda', cursive;
+  padding-bottom:100px;
 }
 
 .hovanim{
@@ -83,12 +85,25 @@ body{
   transform: scale(1.05);
 }
 
+#sec4h {
+  height:inherit;
+  text-align: center;
+  background-size: cover;
+  font-family: 'Acme', sans-serif;
+}
+
+#pad{
+  padding-bottom: 70px;
+}
+
 #sec5{
   color:black;
   font-family: 'Acme', sans-serif;
   text-align: center;
   background-size: cover;
   background-repeat: none;
+  height:inherit;
+  background-color:#f7f7f7; 
 }
 
 #instafeed img:hover{
@@ -104,10 +119,11 @@ body{
 .navbar-toggler .navbar-toggler-icon{
   background-color:white;
   border-radius: 10px;
+  padding-bottom:20px;
 }
 
 #sec6{
-  height:10vh;
+  height:inherit;
   font-family: 'Acme', sans-serif;
   text-align: center;
   color:white;
@@ -121,10 +137,11 @@ body{
 }
 
 .contact{
-  margin-top: 20px;
+  padding-top: 20px;
   padding:10px;
   position:relative;
   opacity:0.8;
+  padding-bottom: 20px;
 }
 
 .contact:hover{
