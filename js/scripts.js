@@ -4,7 +4,7 @@ $(document).ready(function(){
   $("#sec1p2").typeIt({
     lifeLike:true,
     speed:100,
-    startDelay:2500
+    startDelay:1000
   });
   $(".scrolla").scrolla({
     mobile:true,
