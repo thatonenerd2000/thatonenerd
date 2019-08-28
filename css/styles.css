@@ -266,3 +266,24 @@ figure figcaption p {
   margin: 0;
   line-height: 1.5;
 }
+
+#stuff {
+  background-color: #f7f7f7;
+  width: 100vw;
+}
+
+#stuff {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cool {
+  transition: 0.2s ease-in-out;
+  /* filter: grayscale(100); */
+  padding: 10px;
+}
+
+.cool:hover {
+  /* filter: grayscale(0); */
+  transform: scale(1.1);
+}
